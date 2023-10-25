@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Loading the model
-model = joblib.load("models/xgbmodel.pkl")
-data = pd.read_csv("../data/raw/kc_house_data.csv")
+model = joblib.load("app/models/xgbmodel.pkl")
+data = pd.read_csv("data/raw/kc_house_data.csv")
 
 
 # Function to make predictions
